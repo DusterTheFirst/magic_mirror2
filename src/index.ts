@@ -17,3 +17,14 @@ window.addEventListener("load", () => {
 async function getWeatherData() {
     return (await fetch("")).json() as 
 }
+
+/* 
+https://home.openweathermap.org/api_keys
+https://openweathermap.org/price
+https://openweathermap.org/forecast5
+https://openweathermap.org/appid
+https://openweathermap.org/current
+https://api.openweathermap.org/data/2.5/weather?q=Wellesley,US&APPID=5bf0570e6bc21b4bcf28d878896f8140
+https://openweathermap.org/faq#error401
+https://fontawesome.com/icons?d=gallery&c=weather&m=free
+*/

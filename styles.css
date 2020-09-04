@@ -1,9 +1,46 @@
 html, body {
     padding: 0;
     margin: 0;
+    height: 100%;
+    width: 100%;
 }
 
 body {
     background-color: #000;
     color: #fff;
+}
+
+.container {
+    display: grid;
+
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 100px;
+    gap: 10px;
+
+    height: 100%;
+    width: 100%;
+}
+
+.container .current-time {
+}
+.container .current-weather {
+
+}
+.container .current-weather .icon {
+
+}
+.container .current-weather .temp {
+
+}
+.container .weather-forcast {
+
+}
+.container .weather-forcast .day {
+
+}
+.container .weather-forcast .day .icon {
+
+}
+.container .weather-forcast .day .temp {
+
 }
